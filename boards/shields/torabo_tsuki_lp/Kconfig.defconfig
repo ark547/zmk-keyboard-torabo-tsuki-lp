@@ -18,6 +18,8 @@ config ZMK_POINTING
     default y
 
 config PAW3222
-    default y
+    default n
+
+config IQS7211E
  
 endif
