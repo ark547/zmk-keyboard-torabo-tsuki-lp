@@ -15,7 +15,7 @@
         };
 
         layer {
-            bindings = <&to 4>;
+            bindings = <&lt 4 ESC>;
             key-positions = <58 59>;
         };
     };
