@@ -1,0 +1,3 @@
+name: split-trackpad-listner
+append:
+  EXTRA_DTC_OVERLAY_FILE: split-trackpad-listner.overlay
