@@ -27,14 +27,14 @@ include:
     shield: torabo_tsuki_lp_left
     snippet: studio-rpc-usb-uart split-trackpad
     artifact-name: torabo_tsuki_lp_left_peripheral_trackpad
-    cmake-args: -DKEYMAP_FILE=keymap.trackpad.keymap
+
 
   # トラックパッド構成（右手 Central）
   - board: bmp_boost
     shield: torabo_tsuki_lp_right
     snippet: studio-rpc-usb-uart split-trackpad-listner
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DKEYMAP_FILE=keymap.trackpad.keymap
-    artifact-name: torabo_tsuki_lp_right_central_trackpad
+
 
   # 設定リセット
   - board: bmp_boost
